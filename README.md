@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [my solution](https://github.com/fremdie/ping-coming-soon-page-master)
-- Live Site URL: [live site](https://your-live-site-url.com)
+- Live Site URL: [live site](https://ping-coming-soon-1.netlify.app/)
 
 ## My process
 
