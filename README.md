@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [my solution](https://github.com/fremdie/ping-coming-soon-page-master)
+- Live Site URL: [live site](https://your-live-site-url.com)
 
 ## My process
 
