@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/output.css">
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+<body class="box-border">
+  <main>
+    <div class="container flex flex-col justify-center items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+      <div>
+        <img src="/images/logo.svg" alt="">
+      </div>
+      <div>
+        <h2 class="mt-5 text-xl text-gray md:text-3xl">We are launching <span class="text-veryDarkBlue font-Bold">soon!</span></h2>
+      </div>
+      <div id="cta" class="container flex flex-col">
+        <p class="text-center text-veryDarkBlue font-SemiBold text-sm mt-2">Subscribe and get notified</p>
+        <div class="flex flex-col justify-center items-center mt-4 md:flex-row">
+          <form action="" class="text-center" id="form" onsubmit="validateEmail()">
+              <input type="email" id="email" name="email" placeholder="Your email address..." class="border border-gray border-solid outline-none rounded-full h-10 w-80 px-4">
+              <span id="error-msg" class="text-lightRed italic text-sm"></span>
+              <button id="btn" type="submit" class="border bg-blue text-white rounded-full h-11 w-80 mt-2 hover:shadow-md hover:shadow-paleBlue md:w-36 md:mt-0 md:relative md:top-0.5 md:left-8">Notify Me</button>
+          </form>
+        </div>
+      </div>
+      <div class="container">
+        <img src="/images/illustration-dashboard.png" class="mt-10" alt="">
+      </div>
+      <div class="container text-center">
+        <i class="fa-brands fa-facebook-f border border-blue rounded-full text-blue w-8 h-8 py-1.5 mt-10 hover:cursor-pointer hover:bg-blue hover:text-white"></i>
+        <i class="fa-brands fa-twitter border border-blue rounded-full text-blue w-8 h-8 py-1.5 hover:cursor-pointer hover:bg-blue hover:text-white"></i>
+        <i class="fa-brands fa-instagram border border-blue rounded-full text-blue w-8 h-8 py-1.5 hover:cursor-pointer hover:bg-blue hover:text-white"></i>
+      </div>
+      <div>
+        <p class="mt-2.5">&copy; Copyright Ping. All rights reserved.</p>
+      </div>
+    </div>
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Ijeoma Agobi</a>.
+      </p>
+    </footer>
+  </main>
+
+
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
